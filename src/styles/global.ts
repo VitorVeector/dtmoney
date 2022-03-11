@@ -3,9 +3,9 @@ import {createGlobalStyle} from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
     :root{
         --red: #e52e4d;
-        --green: #11ff00;
+        --green: #0ff10f;
 
-        --green-light: #00ddaa;
+        --green-light: #63CC95;
 
         --text-title: #363f5f;
         --text-body: #969cb3;
