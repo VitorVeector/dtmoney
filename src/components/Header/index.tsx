@@ -1,13 +1,18 @@
-/* eslint-disable jsx-a11y/alt-text */
 import logoImg from "../../assets/logo.svg";
 import { Container, Content } from "./styles";
 
-export function Header() {
+interface HeaderProps {
+  onOpenNewTransactionModal: () => void;
+}
+
+export function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (
     <Container>
       <Content>
-        <img src={logoImg}/>
-        <button type="button">Nova Transação</button>
+        <img src={logoImg} />
+        <button type="button" onClick={onOpenNewTransactionModal}>
+          Nova Transação
+        </button>
       </Content>
     </Container>
   );
