@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import logoImg from "../../assets/logo.svg";
 import { Container, Content } from "./styles";
 
