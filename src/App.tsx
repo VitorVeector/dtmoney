@@ -20,7 +20,6 @@ export function App() {
   }
 
   const data = useTransaction()
-  console.log(data)
 
   return (
     <TransactionsProvider>
